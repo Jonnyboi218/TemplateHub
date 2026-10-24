@@ -1,20 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Discover useful digital templates for work, school, and everyday life." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover useful digital templates for work, school, and everyday life.">
   <title>TemplateHub — Templates for your next big idea</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#" aria-label="TemplateHub home"><span class="brand-mark">t</span> template<span>hub</span></a>
     <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#marketplace">Explore</a><a href="#how-it-works">How it works</a><a href="#creators">For creators</a>
+      <a href="#marketplace">Explore</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#creators">For creators</a>
     </nav>
     <div class="header-actions">
       <button class="icon-button" id="cartOpen" aria-label="Open cart">Bag <span class="cart-count" id="cartCount">0</span></button>
@@ -28,27 +31,59 @@
         <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT GOOD IDEA STARTS HERE</div>
         <h1>Make room for<br><em>great work.</em></h1>
         <p class="hero-text">Thoughtful templates for the things you're building, planning, and dreaming up. Spend less time starting from scratch.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#marketplace">Explore templates <span>↘</span></a><a class="text-link" href="#creators">I'm a creator <span>→</span></a></div>
-        <div class="social-proof"><div class="avatar-stack"><span>A</span><span>M</span><span>J</span><span>+</span></div><p><strong>Made by creative people.</strong><br><small>Useful tools, made with care.</small></p></div>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#marketplace">Explore templates <span>↘</span></a>
+          <a class="text-link" href="#creators">I'm a creator <span>→</span></a>
+        </div>
+        <div class="social-proof">
+          <div class="avatar-stack"><span>A</span><span>M</span><span>J</span><span>+</span></div>
+          <p><strong>Made by creative people.</strong><br><small>Useful tools, made with care.</small></p>
+        </div>
       </div>
       <div class="hero-art" aria-label="Preview of digital templates">
         <div class="art-backdrop"></div>
-        <div class="floating-card card-note"><span class="mini-label">WEEKLY PLANNER</span><div class="note-lines"><i></i><i></i><i></i></div><div class="note-checks"><b>✓</b><b>✓</b><b></b></div></div>
-        <div class="floating-card card-design"><div class="design-top"><span>STUDIO NOTES</span><span>✳</span></div><div class="design-shape"></div><h3>Ideas into<br>action.</h3><div class="design-footer">CREATIVE WORKBOOK · 2026</div></div>
-        <div class="floating-card card-grid"><div class="grid-title">PROJECT<br>TRACKER</div><div class="grid-cells"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="grid-caption">MAKE IT HAPPEN</span></div>
-        <div class="sparkle sparkle-one">✳</div><div class="sparkle sparkle-two">✦</div>
+        <div class="floating-card card-note">
+          <span class="mini-label">WEEKLY PLANNER</span>
+          <div class="note-lines"><i></i><i></i><i></i></div>
+          <div class="note-checks"><b>✓</b><b>✓</b><b></b></div>
+        </div>
+        <div class="floating-card card-design">
+          <div class="design-top"><span>STUDIO NOTES</span><span>✳</span></div>
+          <div class="design-shape"></div>
+          <h3>Ideas into<br>action.</h3>
+          <div class="design-footer">CREATIVE WORKBOOK · 2026</div>
+        </div>
+        <div class="floating-card card-grid">
+          <div class="grid-title">PROJECT<br>TRACKER</div>
+          <div class="grid-cells"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="grid-caption">MAKE IT HAPPEN</span>
+        </div>
+        <div class="sparkle sparkle-one">✳</div>
+        <div class="sparkle sparkle-two">✦</div>
         <div class="hero-caption">A little more clarity. A lot more momentum.</div>
       </div>
     </section>
 
-    <section class="trust-strip"><div><span>✳</span> DIGITAL DOWNLOADS</div><div><span>↗</span> MADE BY CREATORS</div><div><span>◷</span> MORE TIME FOR THE GOOD STUFF</div><div><span>♡</span> SIMPLE BY DESIGN</div></section>
+    <section class="trust-strip">
+      <div><span>✳</span> DIGITAL DOWNLOADS</div>
+      <div><span>↗</span> MADE BY CREATORS</div>
+      <div><span>◷</span> MORE TIME FOR THE GOOD STUFF</div>
+      <div><span>♡</span> SIMPLE BY DESIGN</div>
+    </section>
 
     <section class="marketplace section-wrap" id="marketplace">
-      <div class="section-heading"><div><div class="eyebrow">THE MARKETPLACE</div><h2>Find your next <em>favorite.</em></h2></div><p>Small tools that make a big difference.</p></div>
+      <div class="section-heading">
+        <div><div class="eyebrow">THE MARKETPLACE</div><h2>Find your next <em>favorite.</em></h2></div>
+        <p>Small tools that make a big difference.</p>
+      </div>
       <div class="market-controls">
         <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search templates..." aria-label="Search templates"></label>
         <div class="category-pills" id="categoryPills">
-          <button class="pill active" data-category="All">All templates</button><button class="pill" data-category="Planning">Planning</button><button class="pill" data-category="Business">Business</button><button class="pill" data-category="Design">Design</button><button class="pill" data-category="Study">Study</button>
+          <button class="pill active" data-category="All">All templates</button>
+          <button class="pill" data-category="Planning">Planning</button>
+          <button class="pill" data-category="Business">Business</button>
+          <button class="pill" data-category="Design">Design</button>
+          <button class="pill" data-category="Study">Study</button>
         </div>
         <label class="sort-wrap"><span>Sort:</span><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label>
       </div>
@@ -58,22 +93,97 @@
     </section>
 
     <section class="creator-section" id="creators">
-      <div class="creator-art"><div class="creator-sheet"><div class="sheet-top">YOUR IDEA, YOUR WAY</div><div class="sheet-big">MAKE<br>GOOD<br><em>THINGS.</em></div><div class="sheet-bottom"><span>01 / START</span><span>✳</span></div></div><div class="creator-sticker">CREATOR<br>SPOTLIGHT ↗</div></div>
-      <div class="creator-copy"><div class="eyebrow">FOR THE PEOPLE WHO MAKE</div><h2>Your work deserves<br>a <em>place to shine.</em></h2><p>Have a template that helps people do their best work? Share it with the TemplateHub community and grow your audience.</p><ul><li><span>✓</span> Build a simple product listing</li><li><span>✓</span> Reach people looking for useful tools</li><li><span>✓</span> Keep creating what you love</li></ul><button class="button button-dark" id="sellOpen2">Become a creator <span>↗</span></button><p class="fine-print">Demo marketplace only. Seller submissions are saved in this browser session and are not published online.</p></div>
+      <div class="creator-art">
+        <div class="creator-sheet">
+          <div class="sheet-top">YOUR IDEA, YOUR WAY</div>
+          <div class="sheet-big">MAKE<br>GOOD<br><em>THINGS.</em></div>
+          <div class="sheet-bottom"><span>01 / START</span><span>✳</span></div>
+        </div>
+        <div class="creator-sticker">CREATOR<br>SPOTLIGHT ↗</div>
+      </div>
+      <div class="creator-copy">
+        <div class="eyebrow">FOR THE PEOPLE WHO MAKE</div>
+        <h2>Your work deserves<br>a <em>place to shine.</em></h2>
+        <p>Have a template that helps people do their best work? Share it with the TemplateHub community and grow your audience.</p>
+        <ul>
+          <li><span>✓</span> Build a simple product listing</li>
+          <li><span>✓</span> Reach people looking for useful tools</li>
+          <li><span>✓</span> Keep creating what you love</li>
+        </ul>
+        <button class="button button-dark" id="sellOpen2">Become a creator <span>↗</span></button>
+        <p class="fine-print">Demo marketplace only. Seller submissions are saved in this browser session and are not published online.</p>
+      </div>
     </section>
 
-    <section class="how-section section-wrap" id="how-it-works"><div class="eyebrow">NO BIG LEARNING CURVE</div><h2>Good tools. <em>Simple process.</em></h2><div class="steps"><article><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Find your fit</h3><p>Browse templates by what you're working on, from planning to creative projects.</p></article><article><span class="step-number">02</span><div class="step-icon">↗</div><h3>Make it yours</h3><p>Choose a starting point and adapt it to the way you work best.</p></article><article><span class="step-number">03</span><div class="step-icon">✳</div><h3>Get things moving</h3><p>Spend less time setting up and more time doing the work that matters.</p></article></div></section>
+    <section class="how-section section-wrap" id="how-it-works">
+      <div class="eyebrow">NO BIG LEARNING CURVE</div>
+      <h2>Good tools. <em>Simple process.</em></h2>
+      <div class="steps">
+        <article><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Find your fit</h3><p>Browse templates by what you're working on, from planning to creative projects.</p></article>
+        <article><span class="step-number">02</span><div class="step-icon">↗</div><h3>Make it yours</h3><p>Choose a starting point and adapt it to the way you work best.</p></article>
+        <article><span class="step-number">03</span><div class="step-icon">✳</div><h3>Get things moving</h3><p>Spend less time setting up and more time doing the work that matters.</p></article>
+      </div>
+    </section>
 
-    <section class="newsletter"><div><div class="eyebrow">THE GOOD STUFF, OCCASIONALLY</div><h2>A little inspiration<br>for your <em>inbox.</em></h2></div><form id="newsletterForm" class="newsletter-form"><label for="emailInput">Get updates on new templates and creator stories.</label><div class="email-row"><input id="emailInput" type="email" placeholder="Your email address" required><button class="button button-dark" type="submit">Sign me up <span>→</span></button></div><small>This is a demo form and does not send or store email addresses.</small></form></section>
+    <section class="newsletter">
+      <div><div class="eyebrow">THE GOOD STUFF, OCCASIONALLY</div><h2>A little inspiration<br>for your <em>inbox.</em></h2></div>
+      <form id="newsletterForm" class="newsletter-form">
+        <label for="emailInput">Get updates on new templates and creator stories.</label>
+        <div class="email-row"><input id="emailInput" type="email" placeholder="Your email address" required><button class="button button-dark" type="submit">Sign me up <span>→</span></button></div>
+        <small>This is a demo form and does not send or store email addresses.</small>
+      </form>
+    </section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#"><span class="brand-mark">t</span> template<span>hub</span></a><p>Make room for great work.</p><div class="footer-links"><a href="#marketplace">Explore</a><a href="#creators">Sell on TemplateHub</a><a href="#how-it-works">About</a></div><small>© 2026 TemplateHub · Demo project</small></footer>
+  <footer class="site-footer">
+    <a class="brand" href="#"><span class="brand-mark">t</span> template<span>hub</span></a>
+    <p>Make room for great work.</p>
+    <div class="footer-links"><a href="#marketplace">Explore</a><a href="#creators">Sell on TemplateHub</a><a href="#how-it-works">About</a></div>
+    <small>© 2026 TemplateHub · Demo project</small>
+  </footer>
 
-  <div class="modal-backdrop hidden" id="productModalBackdrop"><section class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close-button" data-close aria-label="Close">×</button><div class="modal-product-art" id="modalArt"></div><div class="modal-product-info"><div class="eyebrow" id="modalCategory"></div><h2 id="modalTitle">Template name</h2><p id="modalDescription"></p><div class="modal-price" id="modalPrice"></div><button class="button button-dark full-width" id="modalAdd">Add to bag <span>↗</span></button><small>Demo only: no payment is collected and no files are delivered.</small></div></section></div>
+  <div class="modal-backdrop hidden" id="productModalBackdrop">
+    <section class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-button" data-close aria-label="Close">×</button>
+      <div class="modal-product-art" id="modalArt"></div>
+      <div class="modal-product-info">
+        <div class="eyebrow" id="modalCategory"></div>
+        <h2 id="modalTitle">Template name</h2>
+        <p id="modalDescription"></p>
+        <div class="modal-price" id="modalPrice"></div>
+        <button class="button button-dark full-width" id="modalAdd">Add to bag <span>↗</span></button>
+        <small>Demo only: no payment is collected and no files are delivered.</small>
+      </div>
+    </section>
+  </div>
 
-  <div class="drawer-backdrop hidden" id="cartBackdrop"><aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="drawer-heading"><div><div class="eyebrow">YOUR PICKS</div><h2 id="cartTitle">Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="cartClose" aria-label="Close bag">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div><button class="button button-dark full-width" id="checkoutButton">Continue to checkout <span>→</span></button><p class="fine-print">Demo checkout only. Payments are not connected.</p></div></aside></div>
+  <div class="drawer-backdrop hidden" id="cartBackdrop">
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="drawer-heading"><div><div class="eyebrow">YOUR PICKS</div><h2 id="cartTitle">Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="cartClose" aria-label="Close bag">×</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-bottom">
+        <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
+        <button class="button button-dark full-width" id="checkoutButton">Continue to checkout <span>→</span></button>
+        <p class="fine-print">Demo checkout only. Payments are not connected.</p>
+      </div>
+    </aside>
+  </div>
 
-  <div class="modal-backdrop hidden" id="sellerModalBackdrop"><section class="modal seller-modal" role="dialog" aria-modal="true" aria-labelledby="sellerTitle"><button class="close-button" data-close aria-label="Close">×</button><div class="eyebrow">MAKE SOMETHING USEFUL</div><h2 id="sellerTitle">Share your <em>template.</em></h2><p class="modal-intro">Create a local demo listing. It won't be publicly visible until a real backend and publishing system are added.</p><form id="sellerForm" class="seller-form"><label>Template name<input id="sellerName" required maxlength="70" placeholder="e.g. The Weekly Reset Planner"></label><label>Category<select id="sellerCategory" required><option value="">Choose a category</option><option>Planning</option><option>Business</option><option>Design</option><option>Study</option></select></label><label>Price (USD)<input id="sellerPrice" type="number" required min="0" max="1000" step="0.5" placeholder="8.00"></label><label>Short description<textarea id="sellerDescription" required maxlength="220" rows="3" placeholder="What does this template help people do?"></textarea></label><button class="button button-dark full-width" type="submit">Create demo listing <span>↗</span></button></form></section></div>
+  <div class="modal-backdrop hidden" id="sellerModalBackdrop">
+    <section class="modal seller-modal" role="dialog" aria-modal="true" aria-labelledby="sellerTitle">
+      <button class="close-button" data-close aria-label="Close">×</button>
+      <div class="eyebrow">MAKE SOMETHING USEFUL</div>
+      <h2 id="sellerTitle">Share your <em>template.</em></h2>
+      <p class="modal-intro">Create a local demo listing. It won't be publicly visible until a real backend and publishing system are added.</p>
+      <form id="sellerForm" class="seller-form">
+        <label>Template name<input id="sellerName" required maxlength="70" placeholder="e.g. The Weekly Reset Planner"></label>
+        <label>Category<select id="sellerCategory" required><option value="">Choose a category</option><option>Planning</option><option>Business</option><option>Design</option><option>Study</option></select></label>
+        <label>Price (USD)<input id="sellerPrice" type="number" required min="0" max="1000" step="0.5" placeholder="8.00"></label>
+        <label>Short description<textarea id="sellerDescription" required maxlength="220" rows="3" placeholder="What does this template help people do?"></textarea></label>
+        <button class="button button-dark full-width" type="submit">Create demo listing <span>↗</span></button>
+      </form>
+    </section>
+  </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
